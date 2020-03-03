@@ -1,5 +1,4 @@
-<script>
- $( function() {
+$( function() {
    var availableTags = [
     "Kawasaki J 125",
 "Kawasaki J 300",
@@ -951,10 +950,9 @@
 "ZERO S ZF 14.4 (11 kW) m. Power Tank",
 "ZERO S ZF 14.4 m. Power Tank",
 "ZERO S ZF 7.2",
-"ZERO SR ZF 14.4",
+"ZERO SR ZF 14.4"
    ];
    $( "#tags" ).autocomplete({
      source: availableTags
    });
  } );
- </script>
